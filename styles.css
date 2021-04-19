@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;700&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0px black solid;
+}
+
+:root {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #000000;
+}
+
+a:hover {
+    color: #00F3BB;
+}
+
+a:active {
+    color: #7f7f7f;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: #00F3BB;
+    padding: 16px 59px 16px 59px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgba(0,0,254,1) 0%, rgba(0,240,184,1) 100%);
+    color:#ffffff;
+}
+
+/*--- MENU ---*/
+
+#menu {
+    padding: 20px 70px 20px 70px;
+    font-size: 14px;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+}
+
+#navegador {
+    display: flex;
+    justify-content: space-between;
+}
+#menu-hamburguesa {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.menu-1 {
+    margin: 0px 20px 0px 20px;
+    color: #000000;
+}
+
+.menu-1:hover {
+    text-decoration: line-through;
+    
+}
+
+.menu-1:active {
+    text-decoration: line-through;
+    color: #060A24;
+}
+
+/*---HEADER ---*/
+
+header {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}
+
+header h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+#header {
+    margin: 0px 400px 0px 200px;
+}
+
+header p {
+    margin-top: 5px;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.5;
+    width: 50vw;
+    font-size: 1em;
+}
+/*--EPISODIOS--*/
+
+
+#episodios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.podcast {
+    margin-top: 20px;
+}
+
+
+#podcast {
+    
+    background: linear-gradient(90deg, rgba(0, 0, 163, 1) 0%, rgba(0, 0, 255, 1) 100%);
+    color: white;
+}
+
+#podcast h2 {
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    padding: 20px 200px 20px 200px;
+}
+
+/*--CELULAR--*/
+
+#celular {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#celular img {
+    width: 30vw;
+}
+
+#articulo {
+    width: 500px;
+}
+
+#articulo h2 {
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+
+#articulo p {
+    margin-top: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+/*--FOTOS--*/
+
+#fotos {
+    width:100%;
+}
+
+#fotos h2 {
+    margin-top: 50px;
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    padding: 20px 200px 20px 200px;
+    
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.foto {
+    width: 33.33%;
+}
+
+/*--TEMAS--*/
+
+#temas {
+    height: 50vh;
+}
+
+#temas h2 {
+    margin-top: 50px;
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    padding: 20px 200px 20px 200px;
+    
+}
+
+#figuras {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.figura {
+    margin: 10px 50px 10px 50px;
+    width: 150px;
+    text-align: center;
+}
+
+.figura figcaption {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/*--NOVEDADES--*/
+
+#novedades {
+    height: 50vh;
+    background: rgb(0, 0, 163);
+    background: linear-gradient(90deg, rgba(0, 0, 163, 1) 0%, rgba(0, 0, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#novedades h2 {
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*--FOOTER--*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 23px 70px 30px 70px;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+#redes li {
+    margin: 0px 20px 0px 20px;
+}
+
+.fab:hover {
+    color: #00F3BB;
+}
